@@ -3,6 +3,432 @@
 	<Storages Current="0">
 		<Child Name="Default Configuration" />
 	</Storages>
-	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}" />
-	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}" />
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{3C76D8EC-6374-4588-B48C-EE653AD5C027}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="EXCEL" Key="{DBC3DDEB-A2F8-407D-8A0A-65B9719D2544}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="EXCEL" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="DpiWindow" Key="{9F2E5201-CE5F-4357-A222-DF31BD6453AD}">
+								<Image FileName="-44018316" Left="-11" Top="-11" Right="1931" Bottom="1031" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="XLMAIN" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="QE_tools_evaluation.xlsx - Excel" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="EXCEL" Key="{6B98CFA2-1AD0-4634-B1C4-4997C09C1EE5}">
+										<Image FileName="-44018316" Left="372" Top="240" Right="1920" Bottom="305" />
+										<TypeInfo Item0="{B347C1D2-741C-4471-8EAA-788681B9FA3E}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="EXCEL&lt;" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="DpiWindow2" Key="{65641ECD-7EE3-46CF-947B-DA92995B4754}">
+								<Image FileName="793098671" Left="-11" Top="-11" Right="1931" Bottom="1031" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="XLMAIN" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="POC test cases.xlsx - Excel" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="browser" Key="{02BFBB72-FFFD-4F58-897A-B88E2BAB8291}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{4E3456F7-173D-476C-A0E1-B376ED6BB8A6}">
+								<Image FileName="1528323521" Left="-11" Top="-11" Right="1931" Bottom="1031" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageServicesSmartbearComSamplesT" Key="{1F2816F9-DD23-4B90-A9AE-68080AD389BE}">
+								<Image FileName="95739727" Left="0" Top="154" Right="1920" Bottom="1020" />
+								<TypeInfo Item0="{02307D05-8595-4752-9C8C-12E453367074}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://services.smartbear.com/samples/TestComplete12/smartstore/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="header" Key="{A31FC445-938A-44A3-A506-3A0EEB51EE32}">
+										<Image FileName="272117589" Left="0" Top="106" Right="1895" Bottom="400" />
+										<Selectors>
+											<Selector>
+												<Value Value="#header" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[contains(., &apos;USD&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="navUsd" Key="{FE338043-D8E1-4199-A18D-1438E576100D}">
+										<Image FileName="272117589" Left="115" Top="106" Right="1780" Bottom="169" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nav[contains(., &apos;USD&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkLogIn" Key="{3B080859-45EA-49C9-9514-3472B7849215}">
+										<Image FileName="272117589" Left="1660" Top="106" Right="1780" Bottom="169" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;Log in&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header//nav/nav[@id=&apos;menubar-my-account&apos;]//a[contains(@class, &apos;menubar-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[@id=&apos;menubar-my-account&apos;]//a" />
+											</Selector>
+											<Selector>
+												<Value Value="//header//nav/nav[@id=&apos;menubar-my-account&apos;]//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeLogIn" Key="{70881497-9429-4E64-972F-C6D8B41A819A}">
+										<Image FileName="272117589" Left="1700" Top="125" Right="1766" Bottom="149" />
+										<TypeInfo Item0="{3697FDAE-FD3A-42BD-B2DB-2E79712BC6F0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Log in&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[@id=&apos;menubar-my-account&apos;]//span" />
+											</Selector>
+											<Selector>
+												<Value Value="//header//nav/nav[@id=&apos;menubar-my-account&apos;]//a/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageLogin" Key="{5135F11F-12FB-4411-A06A-7FE35EE3BFC9}">
+								<Image FileName="95739727" Left="0" Top="154" Right="1920" Bottom="1020" />
+								<TypeInfo Item0="{02307D05-8595-4752-9C8C-12E453367074}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://services.smartbear.com/samples/TestComplete12/smartstore/login*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionContent" Key="{BC80244B-3A41-4E42-AB8F-3FF3495292D0}">
+										<Image FileName="-121514980" Left="93" Top="436" Right="1803" Bottom="1090" />
+										<Selectors>
+											<Selector>
+												<Value Value="#content" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Sign In&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-wrapper&apos;]/section" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxUsernameoremail" Key="{7CFEF054-7237-42C3-B262-6CC4798D4C3B}">
+										<Image FileName="-121514980" Left="1159" Top="709" Right="1734" Bottom="786" />
+										<TypeInfo Item0="{75CB379D-13FF-45FB-A392-1426FE046EF8}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#UsernameOrEmail" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;UsernameOrEmail&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-wrapper&apos;]/section//form//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;username&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-center&apos;]//form/div//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxPassword" Key="{633EF1DE-6251-467F-894A-85BE5DA59E00}">
+										<Image FileName="1634530777" Left="1159" Top="810" Right="1734" Bottom="887" />
+										<TypeInfo Item0="{75CB379D-13FF-45FB-A392-1426FE046EF8}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#Password" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;Password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;password&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-center&apos;]//form/div[2]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[2]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonLogIn" Key="{0B7FF983-0634-4612-B6BE-7AF99AA1F260}">
+										<Image FileName="-1650109434" Left="1159" Top="966" Right="1734" Bottom="1043" />
+										<TypeInfo Item0="{50DFB36C-4D1A-4BFB-852B-2C86E6AE0511}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;Log in&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-wrapper&apos;]/section//form//button[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-wrapper&apos;]/section//form//button[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-center&apos;]//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-wrapper&apos;]/section//form//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelLoginWasUnsuccessfulPlease" Key="{1FFE1679-6ABA-4309-B901-43B63269BD2F}">
+										<Image FileName="1195721261" Left="1159" Top="709" Right="1734" Bottom="840" />
+										<TypeInfo Item0="{3697FDAE-FD3A-42BD-B2DB-2E79712BC6F0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;validation-summary-errors&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-center&apos;]//div/div/div/div/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/div/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeLoginWasUnsuccessfulPlea" Key="{6438B149-7C35-4A94-818E-6FE21293EA1A}">
+										<Image FileName="1523051283" Left="1255" Top="728" Right="1644" Bottom="788" />
+										<TypeInfo Item0="{3697FDAE-FD3A-42BD-B2DB-2E79712BC6F0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Login was unsuccessful. Please correct the errors and try again.&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-center&apos;]//div/div/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-wrapper&apos;]/section//span" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="BrowserWindow2" Key="{51DEC6CB-9502-4C8A-AC4B-1F514FCB1957}">
+								<Image FileName="932994969" Left="-11" Top="-11" Right="1931" Bottom="1031" />
+								<TypeInfo Item0="{C94A6D2E-21FB-4E8B-ADE6-9F8986DF14AE}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="1" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="InputApp" Key="{5216D853-8484-41BD-A0B0-63A54D33021E}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="InputApp" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndWindowsUICoreCoreWindow" Key="{3CFC2974-6A99-4DA8-9CE8-9AB43FCEBD2D}">
+								<Image FileName="-1114763595" Left="0" Top="0" Right="438" Bottom="585" />
+								<TypeInfo Item0="{9AD8627C-28D4-4CE1-99AD-6126BEE721F0}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Windows.UI.Core.CoreWindow" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Microsoft Text Input Application" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="explorer" Key="{33C7C6A2-5A6C-441A-A102-7C537C15A1AA}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="explorer" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndShell_TrayWnd" Key="{E4926141-7E1F-426F-8C64-76AE97A83851}">
+								<Image FileName="-431326229" Left="0" Top="0" Right="1920" Bottom="60" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Shell_TrayWnd" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="ReBarWindow32" Key="{8393AAC8-A298-45DC-8D6C-F6F61451EFC1}">
+										<Image FileName="-431326229" Left="70" Top="0" Right="1430" Bottom="60" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="ReBarWindow32" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="MSTaskSwWClass" Key="{0097724A-758E-4B7D-A9C4-ACDFEB3A961E}">
+												<Image FileName="-431326229" Left="72" Top="0" Right="1430" Bottom="60" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="MSTaskSwWClass" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="Running applications" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="MSTaskListWClass" Key="{ED138A8E-1615-4ADB-95E8-AC5A9795948E}">
+														<Image FileName="-431326229" Left="72" Top="0" Right="1430" Bottom="60" />
+														<TypeInfo Item0="{B347C1D2-741C-4471-8EAA-788681B9FA3E}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="MSTaskListWClass" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="Running applications" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="ApplicationFrameHost" Key="{A04A9854-0988-498F-9FD5-1C78C68E2983}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="ApplicationFrameHost" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndSettings" Key="{F58DB3FD-6E71-4C22-8269-F162569CBFAA}">
+								<Image FileName="-59578222" Left="0" Top="0" Right="1223" Bottom="960" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="ApplicationFrameWindow" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Settings" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="EXCEL" Owner="{DBC3DDEB-A2F8-407D-8A0A-65B9719D2544}">
+			<Child Name="DpiWindow" Owner="{9F2E5201-CE5F-4357-A222-DF31BD6453AD}">
+				<Child Name="EXCEL" Owner="{6B98CFA2-1AD0-4634-B1C4-4997C09C1EE5}" />
+			</Child>
+			<Child Name="DpiWindow2" Owner="{65641ECD-7EE3-46CF-947B-DA92995B4754}" />
+		</Child>
+		<Child Name="browser" Owner="{02BFBB72-FFFD-4F58-897A-B88E2BAB8291}">
+			<Child Name="BrowserWindow" Owner="{4E3456F7-173D-476C-A0E1-B376ED6BB8A6}" />
+			<Child Name="pageServicesSmartbearComSamplesT" Owner="{1F2816F9-DD23-4B90-A9AE-68080AD389BE}">
+				<Child Name="header" Owner="{A31FC445-938A-44A3-A506-3A0EEB51EE32}">
+					<Child Name="navUsd" Owner="{FE338043-D8E1-4199-A18D-1438E576100D}">
+						<Child Name="linkLogIn" Owner="{3B080859-45EA-49C9-9514-3472B7849215}">
+							<Child Name="textnodeLogIn" Owner="{70881497-9429-4E64-972F-C6D8B41A819A}" />
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="pageLogin" Owner="{5135F11F-12FB-4411-A06A-7FE35EE3BFC9}">
+				<Child Name="sectionContent" Owner="{BC80244B-3A41-4E42-AB8F-3FF3495292D0}">
+					<Child Name="textboxUsernameoremail" Owner="{7CFEF054-7237-42C3-B262-6CC4798D4C3B}" />
+					<Child Name="passwordboxPassword" Owner="{633EF1DE-6251-467F-894A-85BE5DA59E00}" />
+					<Child Name="buttonLogIn" Owner="{0B7FF983-0634-4612-B6BE-7AF99AA1F260}" />
+					<Child Name="panelLoginWasUnsuccessfulPlease" Owner="{1FFE1679-6ABA-4309-B901-43B63269BD2F}" />
+					<Child Name="textnodeLoginWasUnsuccessfulPlea" Owner="{6438B149-7C35-4A94-818E-6FE21293EA1A}" />
+				</Child>
+			</Child>
+			<Child Name="BrowserWindow2" Owner="{51DEC6CB-9502-4C8A-AC4B-1F514FCB1957}" />
+		</Child>
+		<Child Name="InputApp" Owner="{5216D853-8484-41BD-A0B0-63A54D33021E}">
+			<Child Name="wndWindowsUICoreCoreWindow" Owner="{3CFC2974-6A99-4DA8-9CE8-9AB43FCEBD2D}" />
+		</Child>
+		<Child Name="explorer" Owner="{33C7C6A2-5A6C-441A-A102-7C537C15A1AA}">
+			<Child Name="wndShell_TrayWnd" Owner="{E4926141-7E1F-426F-8C64-76AE97A83851}">
+				<Child Name="ReBarWindow32" Owner="{8393AAC8-A298-45DC-8D6C-F6F61451EFC1}">
+					<Child Name="MSTaskSwWClass" Owner="{0097724A-758E-4B7D-A9C4-ACDFEB3A961E}">
+						<Child Name="MSTaskListWClass" Owner="{ED138A8E-1615-4ADB-95E8-AC5A9795948E}" />
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+		<Child Name="ApplicationFrameHost" Owner="{A04A9854-0988-498F-9FD5-1C78C68E2983}">
+			<Child Name="wndSettings" Owner="{F58DB3FD-6E71-4C22-8269-F162569CBFAA}" />
+		</Child>
+	</LogicalNodes>
 </Root>
