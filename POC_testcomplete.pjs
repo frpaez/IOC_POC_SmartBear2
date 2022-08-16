@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{8403D249-E753-4CCF-BB6B-AC8236F2EE65}">
+	<children>
+		<child name="POC_testcomplete" key="{AA747A94-C38B-4174-8DBE-CA169B94488D}" path="POC_testcomplete\POC_testcomplete.mds" />
+	</children>
+	<testItems key="{3E5DCB2A-315C-4E4B-82F3-3296C4F09A41}">
+		<children>
+			<testItem key="{AA747A94-C38B-4174-8DBE-CA169B94488D}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{E490F60F-4B90-498C-95DF-DDE3B170B075}" />
+	<analysis key="{0B81CAB7-61AF-4B77-A78F-A48D9C75DD10}" />
+	<scc key="{C900492B-D218-429C-9AA0-264B7D78CA88}" name="Git Plugin">
+		<data />
+	</scc>
+</Root>
