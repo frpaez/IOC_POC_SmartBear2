@@ -2,10 +2,12 @@
 <Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{8403D249-E753-4CCF-BB6B-AC8236F2EE65}">
 	<children>
 		<child name="POC_testcomplete" key="{AA747A94-C38B-4174-8DBE-CA169B94488D}" path="POC_testcomplete\POC_testcomplete.mds" />
+		<child name="TestProject1" key="{769BDAB0-F650-4307-A918-9E83111E6692}" path="..\IOC_POC_SmartBear3\TestProject1\TestProject1.mds" />
 	</children>
 	<testItems key="{3E5DCB2A-315C-4E4B-82F3-3296C4F09A41}">
 		<children>
 			<testItem key="{AA747A94-C38B-4174-8DBE-CA169B94488D}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{769BDAB0-F650-4307-A918-9E83111E6692}" enabled="True" timeout="0" stopOnError="True" description="" />
 		</children>
 	</testItems>
 	<variables key="{E490F60F-4B90-498C-95DF-DDE3B170B075}" />
